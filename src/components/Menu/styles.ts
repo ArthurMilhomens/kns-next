@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
-export const Container = styled.div``;
+export const Container = styled.div`
+`;
 
 export const Ol = styled.ol`
   display: flex;
@@ -9,10 +10,11 @@ export const Ol = styled.ol`
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: 22px;
 `;
 
 export const Li = styled.li`
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 0 2rem 1rem 2rem;
 `;
 
 export const A = styled.a`
@@ -28,4 +30,7 @@ export const A = styled.a`
   }
 `;
 
-export const Img = styled.img``;
+export const Img = styled.img`
+    height: 5rem;
+    width: 5rem;
+`;

@@ -1,5 +1,4 @@
 import { Container, Ol, Li, A, Img } from './styles'
-import  Logo  from '../../assets/logo-white.png';
 
 export function Menu() {
     return (
@@ -15,7 +14,7 @@ export function Menu() {
                     <A>Nosso Espaço</A>
                 </Li>
                 <Li>
-                    <Img src={Logo} />
+                    <Img src='/assets/logo-white.png' />
                 </Li>
                 <Li>
                     <A>Horários</A>
