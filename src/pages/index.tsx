@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { Menu } from '../components/Menu';
+import { Schedule } from '../components/Schedules';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <main>
         <Menu />
+        <Schedule />
       </main>
     </>
   )
