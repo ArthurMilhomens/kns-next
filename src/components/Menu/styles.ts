@@ -11,20 +11,22 @@ export const Ol = styled.ol`
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
+  font-weight: 400;
 `;
 
 export const Li = styled.li`
-  padding: 0 2rem 1rem 2rem;
+  padding: 0 3rem 0 3rem;
+  color: #FFFFFF;
 `;
 
 export const A = styled.a`
   text-decoration: none;
-  padding-bottom: 0.25rem !important;
+  padding-bottom: 0.1rem !important;
   cursor: pointer;
 
-  &:hover {
-    box-shadow: 0 0.32rem 0 0 #FFFFFF !important;
+  &:active, &:hover {
+    box-shadow: 0 0.125rem 0 0 #FFFFFF !important;
     padding-bottom: 2.32rem;
     opacity: 1 !important;
     transition: 0.5s;
@@ -32,6 +34,6 @@ export const A = styled.a`
 `;
 
 export const Img = styled.img`
-    height: 5.5rem;
-    width: 5.5rem;
+  height: 5rem;
+  width: 5rem;
 `;

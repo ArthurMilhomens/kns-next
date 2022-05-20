@@ -29,8 +29,13 @@
 }
 
 body {
-    background-color: var(--gray-900);
+    height: 100vh;
     color: var(--white);
+    scrollbar-width: 0px;
+    background: #000;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/back.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/back.png');
+    background-size: 100% 100%;
 }
 
 body, input, textarea, select, button {
