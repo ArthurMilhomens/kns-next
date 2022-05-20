@@ -1,30 +1,29 @@
 import { Container, Ol, Li, A, Img } from './styles'
-import  Logo  from '../../assets/logo-white.png';
 
 export function Menu() {
     return (
         <Container>
             <Ol>
                 <Li>
-                    <A>Home</A>
+                    <A>Home </A>
                 </Li>
                 <Li>
-                    <A>Valores</A>
+                    <A>Planos </A>
                 </Li>
                 <Li>
-                    <A>Nosso Espaço</A>
+                    <A>Nosso Espaço </A>
                 </Li>
                 <Li>
-                    <Img src={Logo} />
+                    <Img src='/assets/logo-white.png' />
                 </Li>
                 <Li>
-                    <A>Horários</A>
+                    <A>Horários </A>
                 </Li>
                 <Li>
-                    <A> Nossa Visão</A>
+                    <A>Nossa Visão </A>
                 </Li>
                 <Li>
-                    <A>Contato</A>
+                    <A>Contato </A>
                 </Li>
             </Ol>
         </Container>
