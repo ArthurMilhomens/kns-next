@@ -22,14 +22,22 @@ export const Li = styled.li`
 
 export const A = styled.a`
   text-decoration: none;
-  padding-bottom: 0.1rem !important;
   cursor: pointer;
 
   &:active, &:hover {
-    box-shadow: 0 0.125rem 0 0 #FFFFFF !important;
-    padding-bottom: 2.32rem;
-    opacity: 1 !important;
-    transition: 0.5s;
+    background:
+    linear-gradient(
+      to left, 
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,0) 5%,
+      #FFFFFF 50%,
+      rgba(255,255,255,0) 100%
+    )
+    left 
+    bottom
+    transparent    
+    no-repeat; 
+    background-size: 100% 2px;
   }
 `;
 
