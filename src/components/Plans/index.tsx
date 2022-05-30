@@ -1,48 +1,49 @@
-import { Container, ContainerPlans, P, Ptittle, Plist, OL, Button, ContainerList, ContainerButton, PInfo, Span, ContainerInfo } from './styles';
+import { Container, ContainerPlans, ContainerList, ContainerButton, ContainerInfo } from './styles';
 
 export function Plans() {
 
     return (
         <Container>
             <ContainerPlans>
-                <P>simples</P>
-                <Ptittle><strong>on-line</strong> R$250,00</Ptittle>
+                <p>simples</p>
+                <p className="title" ><strong>on-line</strong> R$250,00</p>
                 <ContainerList>
-                    <OL>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                    </OL>
+                    <ol>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                    </ol>
                 </ContainerList>
                 <ContainerButton>
-                    <Button>eu quero!</Button>
+                    <button>eu quero!</button>
                 </ContainerButton>
             </ContainerPlans>
             <ContainerPlans>
-                <P>completo</P>
-                <Ptittle><strong>presencial + on-line</strong> R$330,00</Ptittle>
+                <p>completo</p>
+                <p className="title" ><strong>presencial + on-line</strong> R$330,00</p>
                 <ContainerList>
-                    <OL>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                        <li><Plist>Lore ipsum</Plist></li>
-                    </OL>
+                    <ol>
+                    <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
+                    </ol>
                 </ContainerList>
                 <ContainerButton>
-                    <Button>eu quero!</Button>
+                    <button>eu quero!</button>
                 </ContainerButton>
             </ContainerPlans>
             <ContainerInfo>
-            <PInfo>Ainda não sabe que plano se encaixa melhor nas suas necessidades? <Span>Marque uma aula experimental</Span> e venha conversar com a gente. </PInfo>
+                <p>Ainda não sabe que plano se encaixa melhor nas suas necessidades? <span>Marque uma aula experimental</span> e venha conversar com a gente. </p>
             </ContainerInfo>
         </Container>
     )
