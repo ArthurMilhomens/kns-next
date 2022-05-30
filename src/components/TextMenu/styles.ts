@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 100vh;
-  width: 90vw;
+  width: 100vw;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -38,8 +38,8 @@ export const LineArea = styled.div`
     )
     right
     bottom
-    transparent    
-    no-repeat; 
+    transparent
+    no-repeat;
     background-size: 60% 0.2rem;
     margin-bottom: 10rem
 `;
