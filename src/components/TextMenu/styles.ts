@@ -41,5 +41,4 @@ export const LineArea = styled.div`
     transparent
     no-repeat;
     background-size: 60% 0.2rem;
-    margin-bottom: 10rem
 `;

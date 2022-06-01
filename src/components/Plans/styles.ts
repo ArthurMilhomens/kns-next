@@ -76,10 +76,9 @@ export const ContainerButton = styled.div`
         text-align: center;
         justify-content: center;
         align-items: center;
-        padding: 0.5rem 0 0 0;
-        opacity: 0.7;
+        opacity: 1;
         &:hover {
-            opacity: 1;
+            opacity: 0.7;
             transition: 0.5s;
         }
     }
@@ -99,7 +98,11 @@ export const ContainerInfo = styled.div`
         font-size: 1.25rem;
         color: var(--white);
     }
-    span {
+    a {
         text-decoration: underline;
+        &:hover {
+            color: var(--red);
+            transition: 0.3s;
+        }
     }
 `;
