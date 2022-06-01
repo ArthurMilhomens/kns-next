@@ -43,7 +43,7 @@ export function Plans() {
                 </ContainerButton>
             </ContainerPlans>
             <ContainerInfo>
-                <p>Ainda não sabe que plano se encaixa melhor nas suas necessidades? <span>Marque uma aula experimental</span> e venha conversar com a gente. </p>
+                <p>Ainda não sabe que plano se encaixa melhor nas suas necessidades? <a href="https://app.tecnofit.com.br/ng/online-scheduling/campaign/1106" target="blank">Marque uma aula experimental</a> e venha conversar com a gente. </p>
             </ContainerInfo>
         </Container>
     )
