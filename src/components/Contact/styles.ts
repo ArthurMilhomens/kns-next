@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    height: 100vh;
+    height: 90vh;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -38,11 +38,11 @@ export const Container = styled.div`
         border: 0.0625rem solid transparent;
         border-style: none;
         border-radius: 3.125rem;
-        opacity: 1;
+        opacity: 0.7;
         margin: 5.3rem 3.44rem 2.2rem 0;
 
         &:hover {
-            opacity: 0.7;
+            opacity: 1;
             transition: 0.5s;
         }
     }
@@ -55,16 +55,19 @@ export const ContainerFinalInfo = styled.div`
     text-align: center;
     align-items: center;
 
-
     img {
         height: 25.3rem;
         width: 60.75rem;
-        margin-bottom: 2.8rem;
-        scale: 1.0;
+        max-height: 25.3rem;
+        margin-bottom: 2.5rem;
+        transition: 0.3s;
+        transform: scale(1);
+        border: 1px solid transparent;
+        border-radius: 50px;
 
         &:hover {
-            scale: 1.3;
-            transition: 0.5s;
+            transform: scale(1.05);
+            background-color: var(--white)
         }
     }
     p.reserved {
@@ -73,5 +76,13 @@ export const ContainerFinalInfo = styled.div`
         font-weight: 300;
         color: var(--white);
         margin-top: 1.25rem;
+    }
+    a.insta-icon {
+        transform: scale(1);
+
+        &:hover {
+            transform: scale(1.3);
+            transition: 0.3s;
+        }
     }
 `;
