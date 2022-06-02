@@ -46,7 +46,10 @@ export const ContainerIMG = styled.div`
     flex-direction: row;
     align-items: center;
 
-    span {
-        padding: 0 2rem 0 2rem;
+    button {
+        margin: 0 2rem 0 2rem;
+        background: transparent;
+        border-style: none;
+        border-radius: 50px;
     }
 `;
