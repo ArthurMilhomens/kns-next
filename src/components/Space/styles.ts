@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     height: 100vh;
+    width: 60rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -16,13 +17,6 @@ export const Container = styled.div`
       color: var(--white);
       margin:0 0 3.2rem 0;
 
-    }
-    span.kns {
-       color: var(--red);
-    }
-    img {
-        height: 32rem;
-        width: 60rem;
     }
     p.info {
         width: 50rem;
@@ -43,13 +37,18 @@ export const Container = styled.div`
 
 export const ContainerIMG = styled.div`
     display: flex;
+    height: 30rem;
     flex-direction: row;
     align-items: center;
-
-    button {
-        margin: 0 2rem 0 2rem;
-        background: transparent;
-        border-style: none;
-        border-radius: 50px;
-    }
 `;
+
+export const Title = styled.div`
+    font-family: Roboto;
+    width: 50rem;
+    font-size: 3.125rem;
+    font-weight: 500;
+    margin:0 6rem 2.2rem 0;
+    align-items: flex-start;
+    display: flex;
+    color: var(--white);
+`
