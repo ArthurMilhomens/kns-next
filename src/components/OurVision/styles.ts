@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     height: 100vh;
+    width: 20rem;
     text-align: center;
     align-items: center;
     display: flex;
@@ -30,13 +31,7 @@ export const Container = styled.div`
         color: var(--white);
         padding-bottom: 3.5rem;
     }
-    img {
-        width: 150px;
-        height: 150px;
-        border: 1px solid transparent;
-        border-radius: 100px;
-        margin-bottom: 3.125rem;
-    }
+    
     p.name-colaborator {
         font-family: Roboto;
         font-size: 1.5rem;
@@ -51,3 +46,18 @@ export const Container = styled.div`
         width: 63.1rem;
     }
 `;
+
+export const ContainerImage = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.125rem;
+    flex-direction: row;
+    
+    img {
+    width: 180px !important;
+    height: 180px;
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 50rem;
+}
+`
