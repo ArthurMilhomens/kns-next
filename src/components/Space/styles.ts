@@ -18,10 +18,6 @@ export const Container = styled.div`
       margin:0 0 3.2rem 0;
 
     }
-    span.kns {
-       color: var(--white);
-       margin-left: 10rem;
-    }
     p.info {
         width: 50rem;
         height: 6.5rem;
