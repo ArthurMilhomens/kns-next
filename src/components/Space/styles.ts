@@ -21,8 +21,8 @@ export const Container = styled.div`
        color: var(--red);
     }
     img {
-        height: 31.25rem;
-        width: 50rem;
+        height: 32rem;
+        width: 60rem;
     }
     p.info {
         width: 50rem;
