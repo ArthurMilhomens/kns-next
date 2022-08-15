@@ -1,31 +1,31 @@
-import { Container, Ol, Li, A, Img } from './styles'
+import { Container } from './styles'
 
 export function Menu() {
     return (
         <Container>
-            <Ol>
-                <Li>
-                    <A>Home </A>
-                </Li>
-                <Li>
-                    <A>Planos </A>
-                </Li>
-                <Li>
-                    <A>Nosso Espaço </A>
-                </Li>
-                <Li>
-                    <Img src='/assets/logo-white.png' />
-                </Li>
-                <Li>
-                    <A>Horários </A>
-                </Li>
-                <Li>
-                    <A>Nossa Visão </A>
-                </Li>
-                <Li>
-                    <A>Contato </A>
-                </Li>
-            </Ol>
+            <ol>
+                <li>
+                    <a href="#textMenu">Home</a>
+                </li>
+                <li>
+                    <a href="#plans">Planos </a>
+                </li>
+                <li>
+                    <a href="#space">Nosso Espaço </a>
+                </li>
+                <li>
+                    <img src='/assets/logo-white.png' />
+                </li>
+                <li>
+                    <a href="#horarios" >Horários </a>
+                </li>
+                <li>
+                    <a href="#ourVision" >Nossa Visão </a>
+                </li>
+                <li>
+                    <a href="#contact">Contato </a>
+                </li>
+            </ol>
         </Container>
     )
 }

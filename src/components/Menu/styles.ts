@@ -1,7 +1,49 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
   padding-top: 0.1rem;
+  position: fixed;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%);
+
+  ol {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  li {
+    padding: 0 3rem 0 3rem;
+    color: #FFFFFF;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+
+    &:active, &:hover {
+    background:
+    linear-gradient(
+      to left, 
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,0) 5%,
+      #FFFFFF 50%,
+      rgba(255,255,255,0) 100%
+    )
+    left 
+    bottom
+    transparent    
+    no-repeat; 
+    background-size: 100% 2px;
+  }
+  }
+  img {
+    height: 5rem;
+    width: 5rem;
+  }
 `;
 
 export const Ol = styled.ol`
@@ -22,14 +64,22 @@ export const Li = styled.li`
 
 export const A = styled.a`
   text-decoration: none;
-  padding-bottom: 0.1rem !important;
   cursor: pointer;
 
   &:active, &:hover {
-    box-shadow: 0 0.125rem 0 0 #FFFFFF !important;
-    padding-bottom: 2.32rem;
-    opacity: 1 !important;
-    transition: 0.5s;
+    background:
+    linear-gradient(
+      to left, 
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,0) 5%,
+      #FFFFFF 50%,
+      rgba(255,255,255,0) 100%
+    )
+    left 
+    bottom
+    transparent    
+    no-repeat; 
+    background-size: 100% 2px;
   }
 `;
 

@@ -1,6 +1,12 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import { Contact } from '../components/Contact';
 import { Menu } from '../components/Menu';
+import { OurVision } from '../components/OurVision';
+import { Plans } from '../components/Plans';
+import { Schedule } from '../components/Schedules';
+import { Space } from '../components/Space';
+import { TextMenu } from '../components/TextMenu';
 
 export default function Home() {
   return (
@@ -10,6 +16,12 @@ export default function Home() {
       </Head>
       <main>
         <Menu />
+        <TextMenu/>
+        <Plans/>
+        <Space />
+        <Schedule />
+        <OurVision />
+        <Contact />
       </main>
     </>
   )
