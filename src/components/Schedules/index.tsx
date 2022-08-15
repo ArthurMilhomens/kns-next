@@ -3,7 +3,7 @@ import { WiTime4 } from "react-icons/wi";
 
 export function Schedule() {
   return (
-    <Container>
+    <Container id="horarios" >
       <Operation>
         <WiTime4 />
         <p>Segunda-feira à Sexta-feira de 07:00–09:00 & 19:00–21:00 Sabádo de 11:00–12:00*</p>

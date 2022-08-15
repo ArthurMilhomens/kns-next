@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    height: 100vh;
+    height: 120vh;
     width: 20rem;
     text-align: center;
     align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 
@@ -14,7 +15,7 @@ export const Container = styled.div`
         font-weight: 400;
         color: var(--white);
         width: 59.9rem;
-        padding-bottom: 2.625rem;
+        padding-bottom: 2rem;
     }
     p.second-text {
         font-family: Roboto;
@@ -22,14 +23,14 @@ export const Container = styled.div`
         font-weight: 400;
         color: var(--white);
         width: 80.6rem;
-        padding-bottom: 2.7rem;
+        padding-bottom: 2rem;
     }
     p.title-text {
         font-family: Roboto;
         font-size: 1.9rem;
         font-weight: 500;
         color: var(--white);
-        padding-bottom: 3.5rem;
+        padding-bottom: 3rem;
     }
     
     p.name-colaborator {
@@ -37,7 +38,7 @@ export const Container = styled.div`
         font-size: 1.5rem;
         font-weight: 500;
         color: var(--red);
-        padding-bottom: 1.94rem;
+        padding-bottom: 1rem;
     }
     p.description-text {
         font-family: Roboto;

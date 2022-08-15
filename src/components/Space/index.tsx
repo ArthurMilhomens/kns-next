@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export function Space() {
 
     return (
-        <Container>
+        <Container id="space" >
                 <Title>espaço kns</Title>
                 <Carousel>
                         <ContainerIMG>

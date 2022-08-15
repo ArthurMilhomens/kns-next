@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 export function OurVision() {
     return (
-        <Container>
+        <Container id="ourVision">
             <p className="first-text" >A KNS hoje é uma prática que considera corpo, movimento, diversão e interação. Nosso objetivo é mudar a visão da sociedade sobre a atividade física, mostrando que existem formas melhores e mais prazerosas de cuidar da saúde e alcançar o bem estar com a própria imagem. O processo desenvolvido para isso é inovador, livre, exploratório e motivador para o desenvolvimento de aptidões pessoais.</p>
             <p className="second-text" >Ser uma entidade imóvel é ser uma entidade influenciável e não uma entidade influenciadora. A capacidade do indivíduo de “SER” é exatamente a capacidade que ele tem de expressar sua individualidade no mundo. Sem movimento não existe expressão, existe apenas “estar”.
                 Não buscamos transcender a humanidade, muito pelo contrário, buscamos apenas reaver a humanidade que foi perdida. Queremos ser agentes livres, agir de acordo com o que acreditamos e ter a capacidade de realizar os feitos que desejamos. A esfera física é apenas o meio pelo qual aprendemos a fazer isso.</p>

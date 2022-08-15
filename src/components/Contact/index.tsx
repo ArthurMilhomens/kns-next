@@ -4,7 +4,7 @@ import { IoLocationSharp } from 'react-icons/io5';
 
 export function Contact() {
     return (
-        <Container>
+        <Container id="contact">
             <p className='number' ><BsWhatsapp size='20' /> <span>(61) 3548-1731</span></p>
             <p className='location' ><IoLocationSharp size='24' /> <span>SCES Trecho 2 Conjunto 10 Lote 18, Brasília - DF, 70200-002</span></p>
             <a href="https://app.tecnofit.com.br/ng/online-scheduling/campaign/1106" target="blank" ><button>marque sua aula experimental</button></a>

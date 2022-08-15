@@ -5,25 +5,25 @@ export function Menu() {
         <Container>
             <ol>
                 <li>
-                    <a>Home </a>
+                    <a href="#textMenu">Home</a>
                 </li>
                 <li>
-                    <a>Planos </a>
+                    <a href="#plans">Planos </a>
                 </li>
                 <li>
-                    <a>Nosso Espaço </a>
+                    <a href="#space">Nosso Espaço </a>
                 </li>
                 <li>
                     <img src='/assets/logo-white.png' />
                 </li>
                 <li>
-                    <a>Horários </a>
+                    <a href="#horarios" >Horários </a>
                 </li>
                 <li>
-                    <a>Nossa Visão </a>
+                    <a href="#ourVision" >Nossa Visão </a>
                 </li>
                 <li>
-                    <a>Contato </a>
+                    <a href="#contact">Contato </a>
                 </li>
             </ol>
         </Container>

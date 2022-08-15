@@ -76,9 +76,9 @@ export const ContainerButton = styled.div`
         text-align: center;
         justify-content: center;
         align-items: center;
-        opacity: 1;
+        opacity: 0.7;
         &:hover {
-            opacity: 0.7;
+            opacity: 1;
             transition: 0.5s;
         }
     }

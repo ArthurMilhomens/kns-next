@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
       <main>
         <Menu />
-        <TextMenu />
-        <Plans />
+        <TextMenu/>
+        <Plans/>
         <Space />
         <Schedule />
         <OurVision />

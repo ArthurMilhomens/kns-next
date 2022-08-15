@@ -3,7 +3,7 @@ import { Container, ContainerPlans, ContainerList, ContainerButton, ContainerInf
 export function Plans() {
 
     return (
-        <Container>
+        <Container id='plans'>
             <ContainerPlans>
                 <p>simples</p>
                 <p className="title" ><strong>on-line</strong> R$250,00</p>
