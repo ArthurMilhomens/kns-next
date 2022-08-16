@@ -1,13 +1,18 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    height: 120vh;
-    width: 20rem;
+    height: 110vh;
+    width: 99vw;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+
+    .slick-list {
+        max-width: 60rem;
+        flex-direction: row;
+    }
 
     p.first-text {
         font-family: Roboto;
@@ -30,7 +35,6 @@ export const Container = styled.div`
         font-size: 1.9rem;
         font-weight: 500;
         color: var(--white);
-        padding-bottom: 3rem;
     }
     
     p.name-colaborator {
@@ -48,17 +52,39 @@ export const Container = styled.div`
     }
 `;
 
-export const ContainerImage = styled.div`
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3.125rem;
-    flex-direction: row;
-    
+export const MySlider = styled.div`
+  width: 50%;
+  height: 30%;
+  margin-bottom: 5rem;
     img {
-    width: 180px !important;
-    height: 180px;
-    width: 200px;
-    border: 5px solid red;
-    border-radius: 50rem;
-}
-`
+    width: 32rem;
+    height: 32rem;
+    border-radius: 100%;
+  }
+    .slick-initialized{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .slide {
+    transform: scale(0.2);
+    transition: transForm 300ms;
+    opacity: .5;
+    border-radius: 100%;
+  }
+    .activeSlide {
+    transform: scale(0.4);
+    opacity: 1;
+  }
+  .slick-active {
+    justify-content: center;
+    display: flex;
+  }
+`;
+
+export const Arrow = styled.div`
+  cursor: pointer;
+  font-size: 25px;
+  opacity: 1;
+  color: #000;
+`;
