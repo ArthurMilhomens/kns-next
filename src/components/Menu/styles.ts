@@ -4,7 +4,8 @@ export const Container = styled.div`
   padding-top: 0.1rem;
   position: fixed;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%);
+  background-image: linear-gradient(rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%);
+  z-index: 1;
 
   ol {
     display: flex;
