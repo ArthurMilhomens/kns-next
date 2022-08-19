@@ -15,14 +15,34 @@ export const Container = styled.div`
 export const Table = styled.table`
   width: 60.75rem;
   height: 36rem;
-  font-size: 1.25rem;
   background: rgba(17, 17, 17, 0.7);
   text-align: center;
   border-collapse: collapse;
 
+  @media (min-width: 815px) and (max-width: 985px) {
+    width: 52rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    width: 45rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    width: 34rem;
+  }
+
   tr,th,td {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
+    font-size: 1.25rem;
+
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 1.20rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 1.15rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 1rem;
+  }
   }
 
   td,thead {
@@ -38,6 +58,16 @@ export const Zoom = styled.td`
   background-color: var(--white);
   letter-spacing: 0.1em;
   line-height: 1.5rem;
+
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 1.20rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 1.15rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 1rem;
+  }
 `;
 
 export const Operation = styled.div`
@@ -48,11 +78,31 @@ export const Operation = styled.div`
   margin-bottom: 1.87rem;
   margin-left: 1.87rem;
   align-items: center;
+
+  @media (min-width: 815px) and (max-width: 985px) {
+    width: 52rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    width: 45rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    width: 35rem;
+  }
   p {
     color: var(--white);
     font-size: 1rem;
     line-height: 1.18rem;
     width: 26rem;
+
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 0.95rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 0.85rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 0.8rem;
+  }
   }
 
   svg {
@@ -60,6 +110,7 @@ export const Operation = styled.div`
     width: 1.56rem;
     color: var(--white);
     margin-right: 20px;
+
   }
 `;
 
@@ -71,4 +122,14 @@ export const Footer = styled.p`
   line-height: 0.875rem;
   color: var(--white);
   margin-top: 0.437rem;
+
+  @media (min-width: 815px) and (max-width: 985px) {
+    margin-right: 1rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    margin-right: 1.7rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+  margin-right: 1.8rem;
+  }
 `;
