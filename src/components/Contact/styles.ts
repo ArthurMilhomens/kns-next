@@ -19,6 +19,22 @@ export const Container = styled.div`
         span {
             padding-left: 1rem;
         }
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
     }
     p.location {
         display: flex;
@@ -31,6 +47,22 @@ export const Container = styled.div`
         span {
             padding-left: 1rem;
         }
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
     }
     button {
         width: 18.75rem;
@@ -46,6 +78,22 @@ export const Container = styled.div`
             opacity: 1;
             transition: 0.5s;
         }
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    width: 16.75rem;
+    height: 3.75rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    width: 14.75rem;
+    height: 3.75rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    width: 16.75rem;
+    height: 3.75rem;
+  }
     }
 
 `;
@@ -70,6 +118,23 @@ export const ContainerFinalInfo = styled.div`
             transform: scale(1.05);
             background-color: var(--white)
         }
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    height: 25.3rem;
+    width: 59.5rem;
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    height: 25.3rem;
+    width: 48.5rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    height: 25.3rem;
+    width: 42.5rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    height: 26.3rem;
+    width: 30.5rem;
+  }
     }
     p.reserved {
         font-family: Roboto;
@@ -77,6 +142,19 @@ export const ContainerFinalInfo = styled.div`
         font-weight: 300;
         color: var(--white);
         margin-top: 1.25rem;
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 1rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
     }
     a.insta-icon {
         transform: scale(1);
@@ -85,5 +163,20 @@ export const ContainerFinalInfo = styled.div`
             transform: scale(1.3);
             transition: 0.3s;
         }
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+
+    }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 0.7rem;
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 0.6rem;
+    padding: 0 1rem 0 1rem;
+  }
     }
 `;

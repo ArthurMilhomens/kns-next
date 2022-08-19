@@ -28,7 +28,7 @@ export function Plans() {
                 <p className="title" ><strong>presencial + on-line</strong> R$330,00</p>
                 <ContainerList>
                     <ol>
-                    <li>Lore ipsum</li>
+                        <li>Lore ipsum</li>
                         <li>Lore ipsum</li>
                         <li>Lore ipsum</li>
                         <li>Lore ipsum</li>

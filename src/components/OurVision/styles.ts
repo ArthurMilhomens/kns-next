@@ -21,6 +21,22 @@ export const Container = styled.div`
         color: var(--white);
         width: 59.9rem;
         padding-bottom: 2rem;
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    font-size: 1rem;
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 0.8rem;
+    width: 50rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 0.8rem;
+    width: 42rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 0.7rem;
+    width: 30rem;
+  }
     }
     p.second-text {
         font-family: Roboto;
@@ -29,12 +45,42 @@ export const Container = styled.div`
         color: var(--white);
         width: 80.6rem;
         padding-bottom: 2rem;
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    font-size: 1rem;
+    width: 65rem;
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 0.8rem;
+    width: 52rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 0.8rem;
+    width: 45rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 0.7rem;
+    width: 32rem;
+  }
     }
     p.title-text {
         font-family: Roboto;
-        font-size: 1.9rem;
+        font-size: 2.2rem;
         font-weight: 500;
         color: var(--white);
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    font-size: 1.9rem;
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 1.4rem;
+  }
     }
     
     p.name-colaborator {
@@ -43,12 +89,42 @@ export const Container = styled.div`
         font-weight: 500;
         color: var(--red);
         padding-bottom: 1rem;
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 1.2rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 1.2rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 1.2rem;
+  }
     }
     p.description-text {
         font-family: Roboto;
         font-size: 1.125rem;
         font-weight: 400;
         width: 63.1rem;
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    font-size: 1rem;
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    font-size: 0.8rem;
+    width: 52rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    font-size: 0.8rem;
+    width: 42rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    font-size: 0.7rem;
+    width: 33rem;
+
+  }
     }
 `;
 
@@ -60,6 +136,23 @@ export const MySlider = styled.div`
     width: 32rem;
     height: 32rem;
     border-radius: 100%;
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    width: 30rem;
+    height: 30rem;
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    width: 25rem;
+    height: 25rem;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    width: 25rem;
+    height: 25rem;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    width: 20rem;
+    height: 20rem;
+  }
   }
     .slick-initialized{
     display: flex;
@@ -79,6 +172,21 @@ export const MySlider = styled.div`
   .slick-active {
     justify-content: center;
     display: flex;
+  }
+
+  @media (min-width: 986px) and (max-width: 1320px) {
+    width: 75%;
+  }
+  @media (min-width: 815px) and (max-width: 985px) {
+    width: 75%;
+  }
+  @media (min-width: 650px) and (max-width: 814px) {
+    width: 90%;
+    height: 25%;
+  }
+  @media (min-width: 500px) and (max-width: 649px) {
+    width: 100%;
+    height: 20%;
   }
 `;
 
