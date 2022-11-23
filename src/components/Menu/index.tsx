@@ -1,8 +1,8 @@
-import { Container } from './styles'
+import { HeaderMenu } from './HeaderMenu'
+import { Stack } from '@chakra-ui/react'
 
 export function Menu() {
     return (
-        <Container>
-        </Container>
+        <HeaderMenu />
     )
 }
