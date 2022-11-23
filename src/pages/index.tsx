@@ -7,6 +7,7 @@ import { Plans } from '../components/Plans';
 import { Schedule } from '../components/Schedules';
 import { Space } from '../components/Space';
 import { TextMenu } from '../components/TextMenu';
+import { Stack, Box } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -15,19 +16,36 @@ export default function Home() {
         <title>Home | KNS</title>
       </Head>
       <main>
-        <Menu />
-        <TextMenu/>
-        <Plans/>
-        <Space />
-        <Schedule />
-        <OurVision />
-        <Contact />
+        <Box
+          bgImage="url('/assets/background.png')"
+          bgRepeat='no-repeat'
+          bgAttachment='fixed'
+          bgSize='100% 100%'
+        >
+          <Stack
+            maxW='100vw'
+            overflowX='hidden'
+            direction='column'
+            spacing='20px'
+            backdropFilter='auto'
+            backdropBrightness='50%'
+          >
+            <Menu />
+            <TextMenu />
+            <Plans />
+            <Space />
+            <Schedule />
+            <OurVision />
+            <Contact />
+          </Stack>
+        </Box>
       </main>
     </>
   )
 }
 
-export const getStaticProps:GetStaticProps = async () => {
+
+export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {},
