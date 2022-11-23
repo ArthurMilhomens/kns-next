@@ -4,12 +4,17 @@ import { NavLink } from './NavLink'
 export function HeaderMenu() {
     return (
         <HStack
-            pt='0.1rem'
+            as='header'
+            pt='10px'
             w='100%'
             justifyContent='center'
             spacing='50px'
-            position="fixed"
-            zIndex='auto'
+            position='sticky'
+            top='0'
+            zIndex='1'
+            backdropFilter='auto'
+            backdropBlur='8px'
+            bgGradient='linear(to-b, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))'
         >
             <NavLink href="#textMenu">Home</NavLink>
             <NavLink href="#plans">Planos</NavLink>

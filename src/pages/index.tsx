@@ -7,7 +7,7 @@ import { Plans } from '../components/Plans';
 import { Schedule } from '../components/Schedules';
 import { Space } from '../components/Space';
 import { TextMenu } from '../components/TextMenu';
-import { Stack, Box } from '@chakra-ui/react'
+import { Flex, Box } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -21,14 +21,18 @@ export default function Home() {
           bgRepeat='no-repeat'
           bgAttachment='fixed'
           bgSize='100% 100%'
+          maxW='100vw'
+          maxH='100vh'
+          overflow='hidden'
         >
-          <Stack
+          <Flex
+            maxH='100vh'
             maxW='100vw'
             overflowX='hidden'
+            overflowY='scroll'
             direction='column'
-            spacing='20px'
             backdropFilter='auto'
-            backdropBrightness='50%'
+            backdropBrightness='35%'
           >
             <Menu />
             <TextMenu />
@@ -37,7 +41,7 @@ export default function Home() {
             <Schedule />
             <OurVision />
             <Contact />
-          </Stack>
+          </Flex>
         </Box>
       </main>
     </>
