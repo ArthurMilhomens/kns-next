@@ -14,7 +14,8 @@ export const theme = extendTheme({
             '100': '#FC4031'
         },
         black: {
-            '100': 'rgba(0, 0, 0, 0.1)'
+            '100': 'rgba(0, 0, 0, 0.1)',
+            '900': 'rgba(0, 0, 0, 0.9)',
         }
     },
     fonts: {

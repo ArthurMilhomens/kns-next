@@ -1,8 +1,12 @@
 import { HeaderMenu } from './HeaderMenu'
+import { SideBar } from './SideBar'
 import { Stack } from '@chakra-ui/react'
 
 export function Menu() {
     return (
-        <HeaderMenu />
+        <Stack>
+            <HeaderMenu />
+            {/* <SideBar /> */}
+        </Stack>
     )
 }

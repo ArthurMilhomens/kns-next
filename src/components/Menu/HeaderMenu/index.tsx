@@ -16,13 +16,13 @@ export function HeaderMenu() {
             backdropBlur='8px'
             bgGradient='linear(to-b, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))'
         >
-            <NavLink href="#textMenu">Home</NavLink>
-            <NavLink href="#plans">Planos</NavLink>
-            <NavLink href="#space">Nosso Espaço</NavLink>
+            <NavLink size='20px' href="#textMenu">Home</NavLink>
+            <NavLink size='20px' href="#plans">Planos</NavLink>
+            <NavLink size='20px' href="#space">Nosso Espaço</NavLink>
             <Image src='/assets/logo-white.png' alt='Academia KNS' w='70px' h='70px' />
-            <NavLink href="#horarios">Horários</NavLink>
-            <NavLink href="#ourVision">Nossa Visão</NavLink>
-            <NavLink href="#contact">Contato</NavLink>
+            <NavLink size='20px' href="#horarios">Horários</NavLink>
+            <NavLink size='20px' href="#ourVision">Nossa Visão</NavLink>
+            <NavLink size='20px' href="#contact">Contato</NavLink>
         </HStack>
     )
 }
