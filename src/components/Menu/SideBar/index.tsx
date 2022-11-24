@@ -3,14 +3,12 @@ import { NavLink } from '../HeaderMenu/NavLink'
 import {
     Drawer,
     DrawerBody,
-    DrawerFooter,
     DrawerHeader,
     DrawerOverlay,
     DrawerContent,
     DrawerCloseButton,
     Button,
     useDisclosure,
-    Input,
     Image,
     VStack
 } from '@chakra-ui/react'
@@ -33,15 +31,15 @@ export function SideBar() {
                 <DrawerOverlay />
                 <DrawerContent bg='black.900' alignItems='center'>
                     <DrawerCloseButton />
-                    <DrawerHeader><Image src='/assets/logo-white.png' alt='Academia KNS' w='70px' h='70px' /></DrawerHeader>
+                    <DrawerHeader><Image src='/assets/logo-white.png' alt='Academia KNS' w='4.375rem' h='4.375rem' /></DrawerHeader>
                     <DrawerBody>
-                        <VStack spacing='50px' >
-                            <NavLink size='20px' href="#textMenu">Home</NavLink>
-                            <NavLink size='20px' href="#plans">Planos</NavLink>
-                            <NavLink size='20px' href="#space">Nosso Espaço</NavLink>
-                            <NavLink size='20px' href="#horarios">Horários</NavLink>
-                            <NavLink size='20px' href="#ourVision">Nossa Visão</NavLink>
-                            <NavLink size='20px' href="#contact">Contato</NavLink>
+                        <VStack spacing='3.125rem' >
+                            <NavLink size='1.25rem' href="#textMenu">Home</NavLink>
+                            <NavLink size='1.25rem' href="#plans">Planos</NavLink>
+                            <NavLink size='1.25rem' href="#space">Nosso Espaço</NavLink>
+                            <NavLink size='1.25rem' href="#horarios">Horários</NavLink>
+                            <NavLink size='1.25rem' href="#ourVision">Nossa Visão</NavLink>
+                            <NavLink size='1.25rem' href="#contact">Contato</NavLink>
                         </VStack>
                     </DrawerBody>
                 </DrawerContent>
