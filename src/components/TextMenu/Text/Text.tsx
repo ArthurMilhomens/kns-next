@@ -11,7 +11,7 @@ export function MenuText() {
             align='end'
         >
             <Stack mr='6.25rem' mb='9.375rem'>
-                <Text fontSize='3.75rem' fontWeight='700' fontFamily='IstokWeb'>corpo, movimento,</Text>
+                <Text fontSize='3.75rem' fontWeight='700' fontFamily='IstokWeb'>corpo, <Text as='span' color='red.100'>movimento</Text>,</Text>
                 <Text pl='9.375rem' fontSize='3.75rem' fontWeight='700' fontFamily='IstokWeb'>diversão & interação</Text>
                 <Stack pl='14.375rem' pt='0.75rem'>
                     <LineArea />
