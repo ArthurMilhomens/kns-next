@@ -1,4 +1,4 @@
-import { Stack, Text, UnorderedList, ListItem, Button } from '@chakra-ui/react'
+import { Stack, Text, UnorderedList, ListItem, Button, Box } from '@chakra-ui/react'
 
 interface BoxOnlyProps {
     title: string;
@@ -16,16 +16,22 @@ export function BoxOnly({ title, benefits, type, price }: BoxOnlyProps) {
             bg='rgba(17, 17, 17, 0.9)'
             justifyContent='top'
             alignItems='center'
+            p='54px 54px 10px 54px'
         >
-            <Text fontFamily='Roboto' fontSize='30px' fontWeight='500' >{title}</Text>
-            <Text>{type} R${price}</Text>
-            {benefits.map((element, index) => {
-                return (
-                    <UnorderedList key={index}>
-                        <ListItem>{element}</ListItem>
-                    </UnorderedList>
-                )
-            })}
+
+            <Text fontFamily='Roboto' fontSize='30px' fontWeight='500' mb='69px'>{title}</Text>
+            <Box width='350px' overflow='hidden'>
+                <Text fontFamily='Roboto' fontSize='25px' fontWeight='500' mb='42px'><strong>{type}</strong> R${price}</Text>
+                <Box bg='blue' mb='65px' maxH='210px' overflow='auto'>
+                    {benefits.map((element, index) => {
+                        return (
+                            <UnorderedList key={index}>
+                                <ListItem fontFamily='Roboto' fontSize='25px' fontWeight='300'>{element}</ListItem>
+                            </UnorderedList>
+                        )
+                    })}
+                </Box>
+            </Box>
             <Button
                 bg='#FC4031'
                 color='#FFFFFF'
