@@ -3,7 +3,7 @@ import { BoxOnly } from '../Box/index'
 
 export function BoxPlans() {
 
-    const benefitsSimples = ['Lore Ipsun1', 'Lore Ipsun2', 'Lore Ipsun3', 'Lore Ipsun4', 'Lore Ipsun2', 'Lore Ipsun3', 'Lore Ipsun4']
+    const benefitsSimples = ['Lore Ipsun1', 'Lore Ipsun2', 'Lore Ipsun3', 'Lore Ipsun4']
     const benefitsCompleto = ['Lore Ipsun', 'Lore Ipsun', 'Lore Ipsun', 'Lore Ipsun']
 
     return (

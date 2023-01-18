@@ -20,23 +20,34 @@ export function BoxOnly({ title, benefits, type, price }: BoxOnlyProps) {
         >
 
             <Text fontFamily='Roboto' fontSize='30px' fontWeight='500' mb='69px'>{title}</Text>
-            <Box width='350px' overflow='hidden'>
-                <Text fontFamily='Roboto' fontSize='25px' fontWeight='500' mb='42px'><strong>{type}</strong> R${price}</Text>
-                <Box bg='blue' mb='65px' maxH='210px' overflow='auto'>
-                    {benefits.map((element, index) => {
-                        return (
-                            <UnorderedList key={index}>
-                                <ListItem fontFamily='Roboto' fontSize='25px' fontWeight='300'>{element}</ListItem>
-                            </UnorderedList>
-                        )
-                    })}
-                </Box>
+            <Box w='380px'>
+                <Text fontFamily='Roboto' fontSize='25px' fontWeight='500' mb='40px'><strong>{type}</strong> R${price}</Text>
+            </Box>
+            <Box
+                justifyContent='center'
+                w='330px'
+                h='220px'
+                maxH='500px'
+                // overflowY='auto'
+                // css={{
+                //     '&::-webkit-scrollbar': {
+                //         display: 'none',
+                //     }
+                // }}
+            >
+                {benefits.map((element, index) => {
+                    return (
+                        <UnorderedList key={index}>
+                            <ListItem fontFamily='Roboto' fontSize='25px' fontWeight='300'>{element}</ListItem>
+                        </UnorderedList>
+                    )
+                })}
             </Box>
             <Button
                 bg='#FC4031'
                 color='#FFFFFF'
-                h='50px'
-                w='350px'
+                h='60px'
+                w='332px'
                 borderRadius='60px'>
                 <Text fontFamily='Roboto' fontSize='20px' fontWeight='400' >eu quero!</Text>
             </Button>

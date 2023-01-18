@@ -1,9 +1,14 @@
 import { Container, Table, Zoom, Operation, Footer } from "./styles";
+import { Box } from '@chakra-ui/react'
 import { WiTime4 } from "react-icons/wi";
 
 export function Schedule() {
   return (
-    <Container id="horarios" >
+    <Box 
+    id="horarios"
+    bg='blue'
+    h='150vh'
+     >
       <Operation>
         <WiTime4 />
         <p>Segunda-feira à Sexta-feira de 07:00–09:00 & 19:00–21:00 Sabádo de 11:00–12:00*</p>
@@ -93,6 +98,6 @@ export function Schedule() {
         </tbody>
       </Table>
       <Footer>Os horários podem sofrer alterações*</Footer>
-    </Container>
+    </Box>
   );
 }
