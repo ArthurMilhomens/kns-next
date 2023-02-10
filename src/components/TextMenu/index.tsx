@@ -1,12 +1,7 @@
-import { Container, P1, P2, Span, LineArea } from './styles';
+import { MenuText } from './Text/Text'
 
 export function TextMenu() {
     return (
-        <Container id="textMenu">
-                <LineArea>
-                    <P1>Corpo, <Span>movimento</Span>,</P1>
-                    <P2>diversão & interação</P2>
-                </LineArea>
-        </Container>
+        <MenuText />
     )
 }
