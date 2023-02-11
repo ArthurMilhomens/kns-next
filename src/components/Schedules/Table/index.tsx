@@ -85,7 +85,7 @@ export function TableTime() {
                             <Td w='139px' border='solid 1px #FFFFFF' color='#FFFFFF' fontSize='20px' fontWeight='300'></Td>
                             <Td w='139px' border='solid 1px #FFFFFF' color='#FFFFFF' fontSize='20px' fontWeight='300'></Td>
                             <Td w='139px' border='solid 1px #FFFFFF' color='#FFFFFF' fontSize='20px' fontWeight='300'></Td>
-                            <Td w='139px' border='solid 1px #FFFFFF' color='#FFFFFF' fontSize='20px' fontWeight='300'>Aula</Td>
+                            <Td w='139px' bg='#FFFFFF' border='solid 1px #0C0C0C' color='#0C0C0C' fontSize='20px' fontWeight='400' textAlign='center'>Aula</Td>
                         </Tr>
                         <Tr h='79px'>
                             <Td textAlign='center' w='139px' border='solid 1px #FFFFFF' color='#FFFFFF' fontSize='20px' fontWeight='300'>19H</Td>

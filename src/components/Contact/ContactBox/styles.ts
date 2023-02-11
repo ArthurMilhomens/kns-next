@@ -1,12 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    height: 90vh;
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-top: 5rem;
-
+    padding-top: 12rem;
     p.number {
         display: flex;
         font-family: Roboto;

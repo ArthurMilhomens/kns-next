@@ -23,7 +23,6 @@ export default function Home() {
           bgSize='100% 100%'
           maxW='100vw'
           maxH='100vh'
-          overflow='hidden'
         >
           <Flex
             maxH='100vh'
@@ -33,6 +32,7 @@ export default function Home() {
             direction='column'
             backdropFilter='auto'
             backdropBrightness='35%'
+            scrollBehavior='smooth'
           >
             <Menu />
             <TextMenu />
