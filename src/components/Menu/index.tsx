@@ -1,12 +1,20 @@
 import { HeaderMenu } from './HeaderMenu'
 import { SideBar } from './SideBar'
-import { Stack } from '@chakra-ui/react'
+import { useBreakpointValue, Box } from "@chakra-ui/react";
 
 export function Menu() {
+    const isDrawerSidebar = useBreakpointValue({
+        base: true,
+        lg: false,
+    })
+
     return (
-        <Stack>
-            <HeaderMenu />
-            {/* <SideBar /> */}
-        </Stack>
+        <Box
+            position='sticky'
+            top='0'
+            zIndex='100'
+        >
+            {isDrawerSidebar ? <SideBar /> : <HeaderMenu />}
+        </Box>
     )
 }

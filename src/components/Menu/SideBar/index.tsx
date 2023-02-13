@@ -19,9 +19,6 @@ export function SideBar() {
 
     return (
         <>
-            <Button ref={btnRef} bg='black' onClick={onOpen}>
-                Open
-            </Button>
             <Drawer
                 isOpen={isOpen}
                 placement='left'
@@ -44,6 +41,9 @@ export function SideBar() {
                     </DrawerBody>
                 </DrawerContent>
             </Drawer>
+            <Button ref={btnRef} bg='black' onClick={onOpen}>
+                Open
+            </Button>
         </>
     )
 }

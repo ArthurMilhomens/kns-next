@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MySlider } from './styles';
+import { MySlider, ImageContainer } from './styles';
 import Slider from "react-slick";
 import { Box } from '@chakra-ui/react'
 
@@ -50,9 +50,9 @@ export function OurVisionCarrousel() {
             <MySlider>
                 <Slider {...settings}>
                     {infoArray.map((e, index) => (
-                        <div key={index} className={index === imageIndex ? 'slide activeSlide' : 'slide'}>
+                        <ImageContainer key={index} active={index === imageIndex}>
                             <img src={e.imagem} alt={e.nome} />
-                        </div>
+                        </ImageContainer>
                     ))}
                 </Slider>
             </MySlider>
